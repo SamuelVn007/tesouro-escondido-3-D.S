@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+:root{
+    --azul-rico: #03071eff;
+    --vinho: #370617ff;
+    --vermelho-bordo: #6a040fff;
+    --vermelho-forte: #9d0208ff;
+    --vermelho-medio: #d00000ff;
+    --vermelho-fraco: #dc2f02ff;
+    --laranja-forte: #e85d04ff;
+    --laranja-medio: #f48c06ff;
+    --larnja-fraco: #faa307ff;
+    --amarelo: #ffba08ff;
+    --fonte-titulo: "Grey Qo", cursive;
+    --fonte-texto: "Oswald", sans-serif;
+}
+
+body{
+    background-color: var(--azul-rico);
+    color: var(--vermelho-forte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--amarelo);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--laranja-forte);
+    font-family: var(--fonte-titulo);
+}
+
+button{
+    background-color: var(--laranja-forte);
+    color: var(--azul-claro);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.4s;
+    margin: 10px 4px;
+}
+
+button:hover{
+    background-color: var(--laranja-forte);
+}
